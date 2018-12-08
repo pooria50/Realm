@@ -23,7 +23,7 @@ public class LoginUserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_user);
         getContorls();
-
+        //Toas
         final Realm realm = Realm.getDefaultInstance();
 
 
