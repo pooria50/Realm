@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.RegisterUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:hint="UserName: "
+        android:id="@+id/edt_username"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:hint="UserPass: "
+        android:id="@+id/edt_userpass"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:hint="Name: "
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/edt_name"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:hint="Family:"
+        android:layout_width="match_parent"        android:layout_marginTop="8dp"
+
+        android:id="@+id/edt_family"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Phone:"
+        android:textStyle="bold"        android:layout_marginTop="8dp"
+
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:id="@+id/edt_phone"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"        android:layout_marginTop="8dp"
+
+        android:hint="Email: "
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:id="@+id/edt_email"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"        android:layout_marginTop="8dp"
+
+        android:hint="Code Melli: "
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:id="@+id/edt_codemelli"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="@string/app_name"
+        android:layout_width="match_parent"
+        android:hint="Address; "        android:layout_marginTop="8dp"
+
+        android:id="@+id/edt_address"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:hint="Code Posty: "
+        android:fontFamily="@string/app_name"        android:layout_marginTop="8dp"
+
+        android:layout_width="match_parent"
+        android:id="@+id/edt_codeposty"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"        android:layout_marginTop="15dp"
+
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/app_name"
+        android:text="Save"
+       />
+
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/show"
+        android:text="Show"
+        android:fontFamily="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
